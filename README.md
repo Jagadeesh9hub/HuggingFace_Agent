@@ -253,9 +253,3 @@ A few takeaways worth carrying into other LLM-agent projects:
 - **The system prompt is the highest-leverage piece.** Tightening the GAIA-specific instructions moved more accuracy than any code change in this project.
 
 - **Always submit something.** Agents hit edge cases. Building a fallback path that produces a best-guess answer when the main path fails is the difference between "0 correct" and "maybe 1 correct" — and over 20 questions, that matters.
-
----
-
-## Author
-
-Built by [Jagadeesh Nalluri](https://github.com/jagadeeshnalluri99) as part of the HuggingFace AI Agents certification program.
