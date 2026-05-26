@@ -2,8 +2,6 @@
 
 A multi-tool AI agent built for the [HuggingFace Agents Course](https://huggingface.co/learn/agents-course) Unit 4 final assignment. It answers questions from the GAIA benchmark by reasoning step-by-step and calling specialized tools (Wikipedia, web fetch, YouTube transcripts, Gemini Vision/Audio, Excel/CSV parsing).
 
-**Result:** passed the certification with a score above the 30% threshold required for the course completion certificate.
-
 ---
 
 ## Table of contents
