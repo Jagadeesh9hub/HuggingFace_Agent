@@ -1,0 +1,12 @@
+gradio==5.25.2
+requests
+pandas
+openpyxl
+beautifulsoup4
+markdownify
+ddgs
+duckduckgo-search
+smolagents[litellm]>=1.10.0
+litellm>=1.50.0
+google-generativeai
+youtube-transcript-api
