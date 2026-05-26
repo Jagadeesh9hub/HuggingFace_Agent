@@ -1,4 +1,4 @@
-# GAIA Agent — HuggingFace Agents Course Unit 4
+# HuggingFace Agents Course
 
 A multi-tool AI agent built for the Huggingface assignment. It answers questions from the GAIA benchmark by reasoning step-by-step and calling specialized tools (Wikipedia, web fetch, YouTube transcripts, Gemini Vision/Audio, Excel/CSV parsing).
 
