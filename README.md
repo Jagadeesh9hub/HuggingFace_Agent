@@ -1,6 +1,6 @@
 # GAIA Agent — HuggingFace Agents Course Unit 4
 
-A multi-tool AI agent built for the [HuggingFace Agents Course](https://huggingface.co/learn/agents-course) Unit 4 final assignment. It answers questions from the GAIA benchmark by reasoning step-by-step and calling specialized tools (Wikipedia, web fetch, YouTube transcripts, Gemini Vision/Audio, Excel/CSV parsing).
+A multi-tool AI agent built for the Huggingface assignment. It answers questions from the GAIA benchmark by reasoning step-by-step and calling specialized tools (Wikipedia, web fetch, YouTube transcripts, Gemini Vision/Audio, Excel/CSV parsing).
 
 ---
 
@@ -19,12 +19,12 @@ A multi-tool AI agent built for the [HuggingFace Agents Course](https://huggingf
 
 ## What it does
 
-GAIA is a benchmark of 20 real-world questions that require an agent to combine reasoning, tool use, and multimodal understanding. Example types of questions:
+GAIA is a benchmark for an agent to combine reasoning, tool use, and multimodal understanding. Example types of questions:
 
-- Factual lookups requiring Wikipedia traversal ("How many studio albums did Mercedes Sosa release between 2000–2009?")
-- Multi-step web research ("What is the nationality of the youngest winner of...?")
-- YouTube video understanding ("What does the narrator say at 1:30 in this video?")
-- Image and audio analysis (chess board positions, ingredient lists in cooking videos)
+- Factual lookups requiring Wikipedia traversal 
+- Multi-step web research 
+- YouTube video understanding 
+- Image and audio analysis 
 - Numeric reasoning over uploaded Excel/CSV files
 - Reversed-text trick questions
 
@@ -204,26 +204,6 @@ This was the agent's internal thinking, not a final answer. Happens when the age
 - **Gemini 2.5 Flash** — multimodal tools (Vision, Audio, YouTube video understanding)
 - **Gradio** — web UI
 - **HuggingFace Spaces** — deployment target
-
----
-
-## Running locally
-
-Requires Python 3.10+ and at least one Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey).
-
-```bash
-git clone https://github.com/jagadeeshnalluri99/HuggingFace_Agent.git
-cd HuggingFace_Agent
-pip install -r requirements.txt
-
-export GEMINI_API_KEY=your_key_here
-# Optional: additional keys for rotation
-# export GEMINI_API_KEY_2=...
-
-python app.py
-```
-
-Then open the Gradio URL printed in the terminal.
 
 ---
 
